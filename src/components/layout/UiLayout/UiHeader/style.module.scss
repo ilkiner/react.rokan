@@ -1,0 +1,62 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .logoImage {
+    width: 120px;
+    img {
+      vertical-align: middle;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+  .grid {
+    display: flex;
+    width: 100%;
+  }
+  
+  .colSpan3 {
+    flex: 1;
+  }
+  
+  .colSpan6 {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .HeaderIcon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    a {
+        font-size:22px;
+      margin-left: 1rem;
+    }
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+  }

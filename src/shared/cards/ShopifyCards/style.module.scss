@@ -1,0 +1,77 @@
+.shopCard {
+    width: 100%;
+    height: fit-content;
+    padding: 0px;
+    position: relative;
+    margin-top: 0px;
+    min-height: 400px;
+
+    .cardImage {
+        position: relative;
+        width: 100%;
+        height: 600px;
+        display: block;
+        overflow: hidden;
+        transition: transform 0.3s ease-in-out;
+
+        img {
+            width: 100%;
+            height: 100%;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        &:hover img {
+            transform: scale(1.2);
+        }
+    }
+
+    .cardDesc {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        padding: 70px;
+        left: 0;
+        z-index: 2;
+
+        h3 {
+            margin: 0;
+            color: white;
+            font-weight: bold;
+            z-index: 3;
+        }
+    }
+
+    .cardButton {
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        z-index: 3;
+
+        button {
+            background-color: transparent;
+            border: none;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 1.5px;
+
+            &:hover {
+                border-bottom: 1px solid #fff;
+            }
+
+            cursor: pointer;
+            font-size: 1rem;
+
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            &:hover {
+                background-color: transparent;
+            }
+        }
+    }
+}
