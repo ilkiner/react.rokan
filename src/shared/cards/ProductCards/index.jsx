@@ -1,12 +1,12 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import styles from './style.module.scss';
-// Import Swiper styles
+
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-// Import required modules
+
 import { Pagination, Navigation } from 'swiper/modules';
 
 

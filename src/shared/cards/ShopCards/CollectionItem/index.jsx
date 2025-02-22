@@ -38,7 +38,7 @@ const ProductGridContainer = () => {
   />
 </div>
 
-          {/* Product Details */}
+        
           <h2 className="mt-2 text-lg font-bold">{product.ProductName}</h2>
           <p className="text-gray-600">{product.ProductColor}</p>
           <p className="text-gray-900 font-semibold">${product.ProductPrice}</p>

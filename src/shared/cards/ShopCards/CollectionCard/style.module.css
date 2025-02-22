@@ -1,1 +1,6 @@
-.roundImage{transition:transform .3s ease-in-out}.roundImage:hover{transform:scale(1.2)}
+.roundImage {
+  transition: transform 0.3s ease-in-out;
+}
+.roundImage:hover {
+  transform: scale(1.2);
+}/*# sourceMappingURL=style.module.css.map */
